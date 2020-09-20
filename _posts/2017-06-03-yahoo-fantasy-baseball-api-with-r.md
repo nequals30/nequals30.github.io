@@ -2,7 +2,7 @@
 title: "Yahoo Fantasy Baseball API with R"
 date: 2017-06-03T12:00:00-00:00
 categories:
-  - hobby programming
+  - Hobby Programming
   - R
 tags:
   - fantasy baseball

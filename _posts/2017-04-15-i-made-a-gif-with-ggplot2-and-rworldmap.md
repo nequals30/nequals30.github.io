@@ -2,8 +2,8 @@
 title: "I made a GIF with ggplot2 and rworldmap"
 date: 2017-04-15T12:00:00-00:00
 categories:
-  - demography
-  - hobby programming
+  - Demography
+  - Hobby Programming
   - R
 tags:
   - demography
