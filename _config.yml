@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "nEquals30"
-subtitle: "Alik's Blog"
+title: "Alik's Blog"
 name: "Alik Ulmasov"
-url: "https://nequals30.com" # change this later to own domain
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  nEquals30 is Alik's hobby blog.
+url: "https://ulmasov.com"
+description: "ulmasov.com is Alik's hobby blog"
+
+# description: >- # this means to ignore newlines until "baseurl:"
+# ulmasov.com is Alik's hobby blog.
 twitter_username: nequals30
 github_username: nequals30
 minimal_mistakes_skin: "default"
@@ -65,23 +65,29 @@ plugins:
 author:
   name   : "Alik Ulmasov"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "This is my blog."
+  bio    : "This is where I show off my hobby projects."
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/nequals30"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alikulmasov/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nequals30"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nequals30"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/nequals30"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alikulmasov/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nequals30"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nequals30"
 
 defaults:
   # _posts
@@ -90,7 +96,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: false
       share: true
@@ -117,5 +123,6 @@ twitter:
 social:
     type: "Person"
     links:
+        - "https://www.linkedin.com/in/alikulmasov/"
         - "https://twitter.com/nequals30"
 
